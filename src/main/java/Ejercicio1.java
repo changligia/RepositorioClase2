@@ -9,9 +9,9 @@ public class Ejercicio1 {
 
     //E1.1
     static void ext1Item1() {
-        String precioZapatillas = "250";
-        String precioMedias = "120";
-        String precioMochila = "150";
+        String precioZapatillas = "200";
+        String precioMedias = "100";
+        String precioMochila = "100";
 
         System.out.println("E1.1--------------->");
         System.out.println(precioZapatillas);
@@ -21,7 +21,7 @@ public class Ejercicio1 {
         int suma = (Integer.parseInt(precioZapatillas) + Integer.parseInt(precioMedias) +
                 Integer.parseInt(precioMochila));
 
-        System.out.println("La Suma Total es: " + suma);
+        System.out.println("Suma es igual a: " + suma);
     }
 
     //E1.2
