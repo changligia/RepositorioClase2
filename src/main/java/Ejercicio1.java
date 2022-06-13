@@ -9,19 +9,19 @@ public class Ejercicio1 {
 
     //E1.1
     static void ext1Item1() {
-        String precioZapatillas = "250";
-        String precioMedias = "120";
-        String precioMochila = "150";
+        var precioZapatillas = "522";
+        var precioMedias = "321";
+        var precioMochila = "111";
 
         System.out.println("E1.1--------------->");
         System.out.println(precioZapatillas);
         System.out.println(precioMedias);
         System.out.println(precioMochila);
 
-        int suma = (Integer.parseInt(precioZapatillas) + Integer.parseInt(precioMedias) +
+        var suma = (Integer.parseInt(precioZapatillas) + Integer.parseInt(precioMedias) +
                 Integer.parseInt(precioMochila));
 
-        System.out.println("La Suma Total es: " + suma);
+        System.out.println("El total es JIJIJIJI: " + suma);
     }
 
     //E1.2
