@@ -1,5 +1,3 @@
-package com.company;
-
 //Ejercicio1
 public class Ejercicio1 {
     public static void main(String[] args) {
@@ -9,18 +7,19 @@ public class Ejercicio1 {
 
     //E1.1
     static void ext1Item1() {
-        var precioZapatillas = "522";
-        var precioMedias = "321";
-        var precioMochila = "111";
+        String precioZapatillas = "200";
+        String precioMedias = "100";
+        String precioMochila = "100";
 
         System.out.println("E1.1--------------->");
         System.out.println(precioZapatillas);
         System.out.println(precioMedias);
         System.out.println(precioMochila);
 
-        var suma = (Integer.parseInt(precioZapatillas) + Integer.parseInt(precioMedias) +
+        int suma = (Integer.parseInt(precioZapatillas) + Integer.parseInt(precioMedias) +
                 Integer.parseInt(precioMochila));
 
+        System.out.println("Suma es igual a: " + suma);
         System.out.println("El total es JIJIJIJI: " + suma);
     }
 
