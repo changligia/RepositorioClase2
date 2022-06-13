@@ -1,5 +1,3 @@
-package com.company;
-
 //Ejercicio1
 public class Ejercicio1 {
     public static void main(String[] args) {
@@ -22,6 +20,7 @@ public class Ejercicio1 {
                 Integer.parseInt(precioMochila));
 
         System.out.println("Suma es igual a: " + suma);
+        System.out.println("El total es JIJIJIJI: " + suma);
     }
 
     //E1.2
